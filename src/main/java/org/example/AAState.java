@@ -1,6 +1,6 @@
 package org.example;
 
-public class AAState implements AABState{
+public class AAState implements AABState {
 
     AABContext aabContext;
 
@@ -21,4 +21,3 @@ public class AAState implements AABState{
         aabContext.setCurrentState(aabContext.getStartState());
     }
 }
-

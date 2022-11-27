@@ -11,8 +11,9 @@ public class AABContext {
     AABState aaState;
 
 
+
     public AABContext() {
-        startState = new AABContext.StartState(this);
+        startState = new StartState(this);
         aState = new AState(this);
         aaState = new AAState(this);
         currentState = startState;
@@ -53,4 +54,7 @@ public class AABContext {
     public void processOther() {
         currentState.processOther();
     }
+
+
+
 }

@@ -1,5 +1,6 @@
 package org.example;
 
+
 public class AABCounter {
 
     private enum State { START, A, AA };
